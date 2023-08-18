@@ -1,0 +1,12 @@
+{
+  "name": "DeckOfCards-API",
+  "version": "1.0.0",
+  "author": "JK",
+  "scripts": {
+    "start": "npx cypress open --e2e --browser chrome",
+    "test:run:chrome": "npx cypress run --spec 'cypress/e2e/tests/*' --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  }
+}
